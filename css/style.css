@@ -1,0 +1,30 @@
+h1 {
+    width: 200px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+textarea{
+    resize: none;
+}
+div{
+    display: flex;
+}
+
+.k2{
+    margin-top: 25px;
+    margin-left: 20px;
+    display: block;
+}
+button{
+    margin-top: 10px;
+}
+
+.c{
+    width: 110px;
+    margin-left: 10px; 
+}
+td{
+    height: 35px;
+}

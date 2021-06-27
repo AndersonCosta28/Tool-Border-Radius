@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1 id="h">Welcome</h1>
+    <div class="k">
+        <div class="k1">
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Value</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td1"><label for="">Content: </label></td>
+                        <td><input type="text" id="content" placeholder="Example: Hello World"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Border width: (px)</label></td>
+                        <td><input type="number" id="border-width" placeholder="Example: 20"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Box width: (px)</label></td>
+                        <td><input type="number" id="width" placeholder="Example: 250"><br></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="">Border-Radius-topright: (px)</label></td>
+                        <td><input type="number" id="radius-topright" placeholder="Example: 10"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Border-Radius-topleft: (px)</label></td>
+                        <td><input type="number" id="radius-topleft" placeholder="Example: 10"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Border-Radius-bottomright: (px)</label></td>
+                        <td><input type="number" id="radius-bottomright" placeholder="Example: 10"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Border-Radius-left: (px)</label></td>
+                        <td><input type="number" id="radius-bottomleft" placeholder="Example: 10"><br></td>
+                    </tr>
+
+                </tbody>
+                <tr>
+                    <td><label for="">Border Color: </label></td>
+                    <td><input type="color" id="BorderColor" onblur="df('BorderColor','tcBorda')">
+                        <input type="text" id="tcBorda" class="c" readonly><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Background Border: </label></td>
+                    <td><input type="color" id="BackgroundColor" onblur="df('BackgroundColor', 'tcFundo')">
+                        <input type="text" id="tcFundo" class="c" readonly><br><br>
+                    </td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td><button onclick="submit();">Clique aqui</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="k2">
+            <div>
+                <textarea name="" id="area" cols="40" rows="10" readonly></textarea>
+            </div>
+            <div><button onclick="copy()">Copy</button></div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
