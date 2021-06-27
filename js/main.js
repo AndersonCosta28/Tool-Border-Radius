@@ -33,8 +33,6 @@ function submit() {
     BackgroundColor = compStyles.getPropertyValue('background-color');
     width = compStyles.getPropertyValue('width');
     let radius = compStyles.getPropertyValue('border-radius');
-
-
     let area = document.getElementById("area");
     area.innerHTML = `width: ${width};
 border-width: ${width};
@@ -43,7 +41,6 @@ border-color: ${BorderColor};
 border-style: solid;    
 border-radius: ${radius};`;
 }
-
 
 function copy(){
     let copyText = document.getElementById("area");
