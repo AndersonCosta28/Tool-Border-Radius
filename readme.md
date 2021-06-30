@@ -7,6 +7,7 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#tecnologias">Tecnologias</a> •  
  <a href="#status">Status</a> •
+ <a href="#melhorias">Melhorias</a> •  
  <a href="#autor">Autor</a> • 
  <a href="#licenca">Licença</a>
 </p>
@@ -32,6 +33,13 @@
 
 
 #### Em andamento
+&nbsp;
+
+### Melhorias
+
+* Possível selecionar qual unidade de medida quer usar: px ou rem (muito usado em frameworks)
+* Seleção de diferentes estilos de bordas para melhores simulações
+
 &nbsp;
 
 ### Autor
